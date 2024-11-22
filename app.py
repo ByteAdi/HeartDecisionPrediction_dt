@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load('svc_model.joblib')
+model = joblib.load('dt_model.joblib')
 
 # Title and description
 st.title("Heart Disease Prediction")
